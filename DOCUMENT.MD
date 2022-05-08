@@ -9,41 +9,41 @@
 * https://www.cypress.io/ 测试工具
 
 ## 目录结构
-├─cypress   #测试工具 https://www.cypress.io/
-├─pages #页面
-    ├─_app.page  #入口页面
-    └─_document.page  #输出页面
-├─public  #静态文件输出目录  
-├─scripts  #构建脚本
-└─src  
-    ├─components  #组件
-    ├─helpers  #帮助类
-    ├─hooks  #自定义hooks
-    ├─layouts  #布局页面
-    ├─libs  #sdk
-    ├─locales  #国际化文件
-    ├─modules  #模块
-    ├─providers
-    ├─static-build
-    ├─ui-config  #UI配置文件，比如菜单
-    └─utils  #工具类
-│  .babelrc
-│  .env.example # nextjs，匹配.evn.*的所有文件
-│  .eslintignore
-│  .eslintrc.js
-│  .gitattributes
-│  .linguirc
-│  .nvmrc
-│  .prettierrc
-│  codegen.yml
-│  crowdin.yml
-│  custom.d.ts
-│  cypress.json  #测试工具配置文件
-│  index.d.ts
-│  next-env.d.ts
-│  next.config.js #nextjs配置文件
-│  svgo.config.js
-│  tsconfig.json
+├─cypress   #测试工具 https://www.cypress.io/ 
+├─pages #页面 
+    ├─_app.page  #入口页面 
+    └─_document.page  #输出页面 
+├─public  #静态文件输出目录 
+├─scripts  #构建脚本 
+└─src 
+    ├─components  #组件 
+    ├─helpers  #帮助类 
+    ├─hooks  #自定义hooks 
+    ├─layouts  #布局页面 
+    ├─libs  #sdk 
+    ├─locales  #国际化文件 
+    ├─modules  #模块 
+    ├─providers  
+    ├─static-build 
+    ├─ui-config  #UI配置文件，比如菜单 
+    └─utils  #工具类 
+│  .babelrc 
+│  .env.example # nextjs，匹配.evn.*的所有文件 
+│  .eslintignore 
+│  .eslintrc.js 
+│  .gitattributes 
+│  .linguirc 
+│  .nvmrc 
+│  .prettierrc 
+│  codegen.yml 
+│  crowdin.yml 
+│  custom.d.ts 
+│  cypress.json  #测试工具配置文件 
+│  index.d.ts 
+│  next-env.d.ts 
+│  next.config.js #nextjs配置文件 
+│  svgo.config.js 
+│  tsconfig.json 
 ## 第一个示例
 
 ### 自动路由，pageExtensions自定义页面后缀(默认会读取page目录下所有路径下的文件)
