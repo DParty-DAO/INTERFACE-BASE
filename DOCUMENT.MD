@@ -6,6 +6,7 @@
 * https://mui.com/zh/ 主要的UI 
 * https://airbnb.io/visx 图表
 * https://lingui.js.org/ 国际化插件
+* https://typescript.bootcss.com/ TS教程
 * https://www.cypress.io/ 测试工具
 
 ## 目录结构
